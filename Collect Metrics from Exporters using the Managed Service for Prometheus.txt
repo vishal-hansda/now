@@ -1,0 +1,22 @@
+export ZONE=
+
+export PROJECT=$(gcloud config get-value project)
+gcloud beta container clusters create gmp-cluster --num-nodes=1 --zone $ZONE --enable-managed-prometheus
+gcloud container clusters get-credentials gmp-cluster --zone=$ZONE
+kubectl create ns gmp-test
+
+
+cat > config.yaml << EOF
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: node
+    static_configs:
+      - targets: ['localhost:9100']
+EOF
+gsutil mb -p $PROJECT gs://$PROJECT
+gsutil cp config.yaml gs://$PROJECT
+
+
+
