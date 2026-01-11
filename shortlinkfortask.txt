@@ -1,0 +1,35 @@
+never login through open console just paste link of 
+required task and open in page to enter email and 
+password of that lab before lab start, just paste email and 
+password and choose your projectid( this is only cons here 
+you have to choose projectid manually it consume time but
+better than open console link) and go through task.
+
+https://console.cloud.google.com/home/dashboard?project=&cloudshell=true
+
+https://console.cloud.google.com/cloudshelleditor?referrer=search&cloudshell=true&project=
+
+https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=ide%2Cterminal
+
+https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal
+
+https://shell.cloud.google.com/?project=&hl=en_US&fromcloudshell=true&show=terminal
+
+https://console.cloud.google.com/storage/create-bucket
+
+https://console.cloud.google.com/iam-admin/iam
+
+https://console.cloud.google.com/compute/instancesAdd
+
+https://console.cloud.google.com/monitoring/uptime/create
+
+https://console.cloud.google.com/monitoring/alerting/policies/create
+
+https://console.cloud.google.com/functions/add
+
+https://console.cloud.google.com/apis/credentials
+
+
+https://console.cloud.google.com/cloudpubsub/topic/create
+
+https://console.cloud.google.com/cloudpubsub/topic/create?project=qwiklabs-gcp-04-62c98decd0dc&supportedpurview=project
